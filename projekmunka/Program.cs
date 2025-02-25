@@ -12,14 +12,14 @@ namespace KalandJatek
         static void Main(string[] args)
         {
             Console.WriteLine("Üdvözöllek a szöveges kalandjátékban!\nA történet most kezdődik...");
-            Console.WriteLine("Egy segédboszorkány útnak indul, mert le akar vizsgázni hogy főboszi lehessen ne csak segédboszi.\nÖnálló életet szeretne élni.\n");
+            Console.WriteLine("Egy segédboszorkány útnak indul, mert le akar vizsgázni, hogy főboszi lehessen ne csak segédboszi.\nÖnálló életet szeretne élni.\n");
         egy:
             Console.WriteLine("\nHófehérke és a 7 törpében milyen koporsót készítettek a törpék? ( fakoporsó | üvegkoporsó )");
             Console.Write("Segédboszorkány: ");
             string valasztasJobbBal = Console.ReadLine();
             switch (valasztasJobbBal)
             {
-                case "üvegkoporsó": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre. A következő megálló Csipkerózsika"); break;
+                case "üvegkoporsó": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre. A következő megálló Csipkerózsika."); break;
                 case "fakoporsó": goto veg;
                 default: Console.WriteLine("Nincs ilyen választási lehetőség. Próbáld újra."); goto egy;
             }
@@ -39,7 +39,7 @@ namespace KalandJatek
             valasztasJobbBal = Console.ReadLine();
             switch (valasztasJobbBal)
             {
-                case "100 évig": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre. A következő megálló Hamupipőke."); break;
+                case "100 évig": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre! A következő megálló Hamupipőke."); break;
                 case "1 évig": goto veg;
                 default: Console.WriteLine("Nincs ilyen választási lehetőség. Próbáld újra."); goto harom;
             }
@@ -59,7 +59,7 @@ namespace KalandJatek
             valasztasJobbBal = Console.ReadLine();
             switch (valasztasJobbBal)
             {
-                case "Lucifer": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre. A következő megálló Aranyhaj."); break;
+                case "Lucifer": Console.WriteLine("Gratulálok eltaláltad. Pattanj fel a seprűdre! A következő megálló Aranyhaj."); break;
                 case "Miau": goto veg;
                 default: Console.WriteLine("Nincs ilyen választási lehetőség. Próbáld újra."); goto ot;
             }
@@ -114,7 +114,7 @@ namespace KalandJatek
                 default: Console.WriteLine("Nincs ilyen választási lehetőség. Próbáld újra."); goto tiz;
             }
         tizenegy:
-            Console.WriteLine("\nNagy viharba keveredtél.\nMegszállsz az öreg halász és a nagyravágyó feleségénél. Milyen állat váltja valóra a kérésüket ( ponty | béka ) ");
+            Console.WriteLine("\nNagy viharba keveredtél.\nMegszállsz az öreg halász és a nagyravágyó feleségénél. Milyen állat váltja valóra a kérésüket? ( ponty | béka ) ");
             Console.Write("Segédboszorkány: ");
             valasztasJobbBal = Console.ReadLine();
             switch (valasztasJobbBal)
@@ -127,14 +127,14 @@ namespace KalandJatek
             Console.WriteLine("\nMeghívott mulatozni Bánk bán.\nKi zenésítette meg a művet? ( Egressy Béni | Erkel Ferenc ) ");
             Console.Write("Segédboszorkány: ");
             valasztasJobbBal = Console.ReadLine();
-            switch (valasztasJobbBal)
-            {
-                case "Erkel Ferenc": Console.WriteLine("Gratulálok eltaláltad. Folytassuk az utunkat Bibi Blocksberghez."); break;
+            switch (valasztasJobbBal) {
+            
+                case "Erkel Ferenc": Console.WriteLine("Gratulálok eltaláltad. Folytasd az utat Bibi Blocksberghez!"); break;
                 case "Egressy Béni": goto opera;
                 default: Console.WriteLine("Nincs ilyen választási lehetőség. Próbáld újra."); goto tizenketto;
             }
         tizenharom:
-            Console.WriteLine("\nA főboszorkány (Bibi Blocksberg) elfejtette seprűjének a nevét.\nTőled kérdezi: Mi a seprűm neve? ( Mákospite | Almáspite ) ");
+            Console.WriteLine("\nA főboszorkány (Bibi Blocksberg) elfelejtette seprűjének a nevét.\nTőled kérdezi: Mi a seprűm neve? ( Mákospite | Almáspite ) ");
             Console.Write("Segédboszorkány: ");
             valasztasJobbBal = Console.ReadLine();
             switch (valasztasJobbBal)
@@ -160,7 +160,7 @@ namespace KalandJatek
             Console.WriteLine("Javítsd meg a seprűdet. Kezdd újra a játékot!");
             Environment.Exit(0);
         elfelejt:
-            Console.WriteLine("Nem tudtad megjegyezni hogy ki írta. Menj vissza a boszisuiba tanulni. Kezdd újra a játékot!");
+            Console.WriteLine("Nem tudtad megjegyezni hogy ki írta. Menj vissza a boszisuliba tanulni. Kezdd újra a játékot!");
             Environment.Exit(0);
         beteg:
             Console.WriteLine("Megáztál és lázas lettél. Gyógyszert kell szedned, kezdd újra a játékot!");
