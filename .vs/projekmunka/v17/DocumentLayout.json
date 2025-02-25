@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kswirag\\Desktop\\projekmunka\\projekmunka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4098BF1-0789-4E0D-836F-7A63C6572B6D}|projekmunka\\projekmunka.csproj|c:\\users\\kswirag\\desktop\\projekmunka\\projekmunka\\projekmunka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4098BF1-0789-4E0D-836F-7A63C6572B6D}|projekmunka\\projekmunka.csproj|solutionrelative:projekmunka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kswirag\\Desktop\\projekmunka\\projekmunka\\projekmunka\\Program.cs",
+              "RelativeDocumentMoniker": "projekmunka\\Program.cs",
+              "ToolTip": "C:\\Users\\kswirag\\Desktop\\projekmunka\\projekmunka\\projekmunka\\Program.cs",
+              "RelativeToolTip": "projekmunka\\Program.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwG8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:35:36.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
